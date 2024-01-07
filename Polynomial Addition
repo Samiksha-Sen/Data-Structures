@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//polynomial node structure
+struct node
+{
+    int co, exp;
+    struct node* next;
+};
